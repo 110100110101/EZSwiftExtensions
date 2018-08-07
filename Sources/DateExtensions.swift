@@ -17,6 +17,7 @@ extension Date {
         case hour(Int)
         case minute(Int)
         case second(Int)
+        case now
     }
     
     public static let minutesInAWeek = 24 * 60 * 7
