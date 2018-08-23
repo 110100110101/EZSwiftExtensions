@@ -9,16 +9,6 @@
 import Foundation
 
 extension Date {
-
-    public enum TimePassedUnit {
-        case year(Int)
-        case month(Int)
-        case day(Int)
-        case hour(Int)
-        case minute(Int)
-        case second(Int)
-        case now
-    }
     
     public static let minutesInAWeek = 24 * 60 * 7
 
