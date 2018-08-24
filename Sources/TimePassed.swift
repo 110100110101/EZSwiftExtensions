@@ -7,3 +7,14 @@
 //
 
 import Foundation
+
+public enum TimePassed {
+    
+    case year(Int)
+    case month(Int)
+    case day(Int)
+    case hour(Int)
+    case minute(Int)
+    case second(Int)
+    case now
+}
